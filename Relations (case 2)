@@ -1,0 +1,42 @@
+USERS
+id
+type client/implementer
+...
+
+
+КЛИЕНТЫ
+id
+phone
+name
+...
+
+
+ИСПОЛНИТЕЛИ
+id
+name
+enable/online
+...
+
+
+ЗАЯВКИ
+id
+client_id
+request_id = null
+status
+...
+
+
+СТАДИИ ЗАЯВОК
+id
+request_id
+implementer_id = null
+status
+...
+
+
+СООБЩЕНИЯ
+id
+request_stage_id
+message
+user_id
+...
