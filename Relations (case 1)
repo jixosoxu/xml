@@ -16,6 +16,8 @@ enable/online
 id
 client_id
 request_id = null
+priority = 0
+emergency = false
 status
 ...
 
