@@ -2,3 +2,7 @@ POST - /request/code - {"phone":"???"} - {"status":"ok"}
 POST - /authorize/me - {"phone":"???","code":"???"} - {"status":"ok","token":"???"}
 POST - /settings/me - {} - {"phone":"???","email":"???",...}
 PUT - /settings/me - {"email":"???",...} - {"status":"ok"}
+
+POST - /requests - {} - {"status":"ok","requests":[...]}
+POST - /request/:request_id/messages - {} - {...}
+PUT - /message - {...} - {"status":"ok"}
