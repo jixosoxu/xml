@@ -1,0 +1,4 @@
+POST /request/code
+POST /authorize/me
+POST /settings/me
+PUT  /settings/me
