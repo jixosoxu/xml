@@ -1,4 +1,4 @@
-POST /request/code
-POST /authorize/me
-POST /settings/me
-PUT  /settings/me
+POST - /request/code - {"phone":"???"} - {"status":"ok"}
+POST - /authorize/me - {"phone":"???","code":"???"} - {"status":"ok","token":"???"}
+POST - /settings/me - {} - {"phone":"???","email":"???",...}
+PUT - /settings/me - {"email":"???",...} - {"status":"ok"}
