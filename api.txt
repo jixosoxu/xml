@@ -4,5 +4,5 @@ POST - /settings/me - {} - {"phone":"???","email":"???",...}
 PUT - /settings/me - {"email":"???",...} - {"status":"ok"}
 
 POST - /tickets - {} - {"status":"ok","tickets":[...]}
-POST - /tickets/:tickets_id/messages - {} - {...}
+POST - /ticket/:ticket_id/messages - {} - {...}
 PUT - /message - {...} - {"status":"ok"}
