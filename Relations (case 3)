@@ -1,0 +1,52 @@
+USERS
+id
+type "client/implementer"
+...
+
+
+КЛИЕНТЫ
+id
+phone
+name
+...
+
+
+ИСПОЛНИТЕЛИ
+id
+name
+enable/online
+...
+
+
+ЗАЯВКИ НА ОБСЛУЖИВАНИЕ
+id
+author = user_id
+client_id
+ticket_id = null
+priority = 0
+emergency = false
+status "waitingservice/inprocess/delayed/closed"
+...
+
+
+СТАДИИ ЗАЯВОК НА ОБСЛУЖИВАНИЕ
+id
+request_id
+implementer_id = null
+status "waitingservice/inprocess/delayed/closed"
+...
+
+
+СООБЩЕНИЯ
+id
+request_stage_id
+message
+user_id
+...
+
+TICKETS
+id
+client_id
+implementer_id
+request_id
+...
