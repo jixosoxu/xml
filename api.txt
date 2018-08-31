@@ -1,8 +1,13 @@
-POST - /request/code - {"phone":"???"} - {"status":"ok"}
+POST - /request/passcode - {"phone":"???"} - {"status":"ok"}
 POST - /authorize/me - {"phone":"???","code":"???"} - {"status":"ok","token":"???"}
 POST - /settings/me - {} - {"phone":"???","email":"???",...}
 PUT - /settings/me - {"email":"???",...} - {"status":"ok"}
 
-POST - /tickets - {} - {"status":"ok","tickets":[...]}
-POST - /ticket/:ticket_id/messages - {} - {...}
-PUT - /message - {...} - {"status":"ok"}
+GET - /tickets - . - [...]
+POST - /tickets - {...} - {"status":"ok"}
+GET - /tickets/:ticket_id/messages - . - [...]
+
+POST - /message - {...} - {"status":"ok"}
+
+POST - /files
+GET - /files
