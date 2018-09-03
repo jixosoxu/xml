@@ -1,13 +1,13 @@
-POST - /passcode - {"phone":"???"} - {"status":"ok"}
-POST - /authorize - {"phone":"???","code":"???"} - {"status":"ok","token":"???"}
-POST - /settings - {} - {"phone":"???","email":"???",...}
-PUT - /settings - {"email":"???",...} - {"status":"ok"}
+POST - /mobile/passcode - {"phone":"???"} - {"status":"ok"}
+POST - /mobile/authorize - {"phone":"???","code":"???"} - {"status":"ok","token":"???"}
+POST - /mobile/settings - {} - {"phone":"???","email":"???",...}
+PUT - /mobile/settings - {"email":"???",...} - {"status":"ok"}
 
-GET - /tickets - . - [...]
-POST - /tickets - {...} - {"status":"ok"}
-GET - /tickets/:ticket_id/messages - . - [...]
+GET - /mobile/tickets - . - [...]
+POST - /mobile/tickets - {...} - {"status":"ok"}
+GET - /mobile/tickets/:ticket_id/messages - . - [...]
 
-POST - /message - {...} - {"status":"ok"}
+POST - /mobile/message - {...} - {"status":"ok"}
 
 POST - /files
 GET - /files
