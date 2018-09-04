@@ -1,6 +1,6 @@
 POST - /mobile/passcode - {"phone":"???"} - {"status":"ok"}
 POST - /mobile/authorize - {"phone":"???","code":"???"} - {"status":"ok","token":"???"}
-POST - /mobile/settings - {} - {"phone":"???","email":"???",...}
+GET - /mobile/settings - {} - {"phone":"???","email":"???",...}
 PUT - /mobile/settings - {"email":"???",...} - {"status":"ok"}
 
 GET - /mobile/tickets - . - [...]
