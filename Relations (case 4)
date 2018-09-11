@@ -1,0 +1,16 @@
+USERS
+id
+phone
+email
+pass
+login_type "email/phone"
+name
+user_type "client/operator/admin/3party"
+...
+
+
+SERVICES
+id
+user_id
+approved
+...
